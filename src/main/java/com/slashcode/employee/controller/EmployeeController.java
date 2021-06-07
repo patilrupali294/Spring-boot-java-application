@@ -22,7 +22,7 @@ public class EmployeeController {
 	
 	@RequestMapping("/")
 	public String getHomePage(Model model) {
-		model.addAttribute("successMsg", "Welcome to My Youtube Channel /Code");
+		model.addAttribute("successMsg", "Welcome to Employee Directory");
 		
 		return "Homepage";
 	}
